@@ -29,7 +29,7 @@ This is a **learning portfolio**, not a claim of production DevOps experience. E
 | --- | --- | --- |
 | [Day 01](day-01-linux-basics/README.md) | Files, folders & terminal navigation | ✅ Practiced |
 | [Day 02](day-02-permissions-processes/README.md) | Permissions, process management & signals | ✅ Practiced |
-| [Day 03](day-03-server-health-check/README.md) | System monitoring & manual health report | 🛠️ Practiced; mini-project in progress |
+| [Day 03](day-03-server-health-check/README.md) | System monitoring & manual health report | ✅ Completed (manual lab) |
 | Future labs | Bash, networking, logs, services, automation | 🗓️ Planned |
 
 ## ✦ skills i'm building
