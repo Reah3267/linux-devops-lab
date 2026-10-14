@@ -29,7 +29,7 @@ This is a **learning portfolio**, not a claim of production DevOps experience. E
 | --- | --- | --- |
 | [Day 01](day-01-linux-basics/README.md) | Files, folders & terminal navigation | ✅ Practiced |
 | [Day 02](day-02-permissions-processes/README.md) | Permissions, process management & signals | ✅ Practiced |
-| Day 03 | Next learning session | ⏳ Not started |
+| [Day 03](day-03-server-health-check/README.md) | System monitoring & manual health report | 🛠️ Practiced; mini-project in progress |
 | Future labs | Bash, networking, logs, services, automation | 🗓️ Planned |
 
 ## ✦ skills i'm building
@@ -37,7 +37,7 @@ This is a **learning portfolio**, not a claim of production DevOps experience. E
 - **Linux CLI:** `pwd`, `ls`, `cd`, `mkdir`, `touch`, `cat`, `cp`, `mv`, `rm`
 - **Permissions:** `chmod`, octal modes, user/group/other permissions
 - **Processes:** `ps`, `grep`, `kill`, background jobs, process IDs
-- **Workflow:** running commands, checking results, correcting mistakes, keeping notes
+- **Monitoring:** `uptime`, `free -h`, `df -h`, `top`, `ps -p`\n- **Workflow:** running commands, checking results, correcting mistakes, keeping notes
 
 ## ✦ lab notes
 
