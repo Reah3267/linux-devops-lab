@@ -1,6 +1,6 @@
 # day 03 — server health check 🩺🐧
 
-> **Status:** Monitoring commands practiced; mini-project in progress  
+> **Status:** Completed — manual monitoring and health-report practice  
 > **Environment:** Ubuntu on WSL2  
 > **Focus:** CPU, RAM, disk space, uptime, and process inspection
 
@@ -95,7 +95,7 @@ It shows system uptime and load averages, useful context when diagnosing perform
 
 Not necessarily. The process might have already exited or the PID might be incorrect. Verify the sequence before making that claim.
 
-## ✦ next upgrade
+## ✦ optional next upgrade
 
 Convert these manual observations into a **Bash health-check script** that collects real command output, saves a timestamped report, and checks its own results. This is **planned**, not yet completed.
 
