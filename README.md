@@ -37,7 +37,8 @@ This is a **learning portfolio**, not a claim of production DevOps experience. E
 - **Linux CLI:** `pwd`, `ls`, `cd`, `mkdir`, `touch`, `cat`, `cp`, `mv`, `rm`
 - **Permissions:** `chmod`, octal modes, user/group/other permissions
 - **Processes:** `ps`, `grep`, `kill`, background jobs, process IDs
-- **Monitoring:** `uptime`, `free -h`, `df -h`, `top`, `ps -p`\n- **Workflow:** running commands, checking results, correcting mistakes, keeping notes
+- **Monitoring:** `uptime`, `free -h`, `df -h`, `top`, `ps -p`
+- **Workflow:** running commands, checking results, correcting mistakes, keeping notes
 
 ## ✦ lab notes
 
