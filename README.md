@@ -30,7 +30,8 @@ This is a **learning portfolio**, not a claim of production DevOps experience. E
 | [Day 01](day-01-linux-basics/README.md) | Files, folders & terminal navigation | ✅ Practiced |
 | [Day 02](day-02-permissions-processes/README.md) | Permissions, process management & signals | ✅ Practiced |
 | [Day 03](day-03-server-health-check/README.md) | System monitoring & manual health report | ✅ Completed (manual lab) |
-| Future labs | Bash, networking, logs, services, automation | 🗓️ Planned |
+| [Day 04](day-04-networking-basics/README.md) | Networking basics & HTTP connectivity | ✅ Practiced (curl verified) |
+| Future labs | Bash, logs, services, automation | 🗓️ Planned |
 
 ## ✦ skills i'm building
 
@@ -38,6 +39,7 @@ This is a **learning portfolio**, not a claim of production DevOps experience. E
 - **Permissions:** `chmod`, octal modes, user/group/other permissions
 - **Processes:** `ps`, `grep`, `kill`, background jobs, process IDs
 - **Monitoring:** `uptime`, `free -h`, `df -h`, `top`, `ps -p`
+- **Networking:** `curl -I` (verified HTTP response); exploring `ping`, `ip`, and DNS checks
 - **Workflow:** running commands, checking results, correcting mistakes, keeping notes
 
 ## ✦ lab notes
