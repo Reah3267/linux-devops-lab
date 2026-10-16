@@ -54,20 +54,6 @@ kill "$pid"
 
 **Expected check:** `ls -l` should show the permission modes; `ps -p "$pid"` should show the running sleep process before it is stopped.
 
-## interview checkpoint
-
-**Q: What does `chmod 600` mean?**
-
-Only the file owner has read and write permission; group and others have no permissions.
-
-**Q: What does `kill` do?**
-
-It sends a signal to a process. By default, `kill PID` sends `SIGTERM`, requesting termination.
-
-**Q: Why might a process disappear from `ps`?**
-
-It may have exited normally or terminated after receiving a signal.
-
 ## next
 
 Day 03 is **not started yet**. This repository will grow as I finish more practical Linux work.
