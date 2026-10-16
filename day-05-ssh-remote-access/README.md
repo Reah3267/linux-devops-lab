@@ -82,20 +82,6 @@ SSH can reject authentication if sensitive files or directories have unsafe perm
 - **Service command fails in WSL:** Confirm that systemd is enabled in the distribution and inspect the service status.
 - **Password prompt appears:** Key-based authentication may not have been selected or accepted; verify before claiming passwordless login.
 
-## ✦ interview checkpoint
-
-**Q: What is SSH?**  
-Secure Shell is a protocol used for encrypted remote login and command execution.
-
-**Q: What is the difference between a public and private SSH key?**  
-The public key can be shared with servers; the private key stays secret on the client.
-
-**Q: What does `chmod 700 ~/.ssh` do?**  
-Grants directory read/write/execute to the owner and no access to group or others.
-
-**Q: Does `systemctl enable ssh` start SSH immediately?**  
-No. `enable` configures startup; `start` runs it now.
-
 ## ✦ next upgrade
 
 Repeat the key-only SSH test, capture a **redacted** successful login check, and practice reviewing SSH service logs. Never publish private keys, passwords, tokens, or identifying connection details.
