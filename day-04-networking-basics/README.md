@@ -58,24 +58,6 @@ Some sites block ICMP ping even when HTTPS works. A failed ping by itself does n
 4. **Check HTTP/HTTPS:** `curl -I https://example.com`
 5. **Interpret the actual error:** DNS failure, connection timeout, TLS error, or HTTP status code
 
-## ✦ interview checkpoint
-
-**Q: What does `curl -I` do?**
-
-It requests HTTP response headers (using a HEAD request) without downloading the response body.
-
-**Q: What does HTTP 200 mean?**
-
-The server successfully handled the HTTP request. It does not necessarily prove the entire application is functioning correctly.
-
-**Q: What's the difference between `ping` and `curl`?**
-
-`ping` typically uses ICMP to test reachability; `curl` makes an application-layer request such as HTTP or HTTPS.
-
-**Q: Why might `ping` fail but `curl` succeed?**
-
-ICMP may be blocked or filtered while TCP/HTTPS traffic is allowed.
-
 ## ✦ next upgrade
 
 Collect actual output from `ip addr`, `ip route`, and `getent hosts` in a future lab. Later, build a simple **Bash connectivity checker** that logs results and errors.
