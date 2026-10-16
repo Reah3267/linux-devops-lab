@@ -31,7 +31,8 @@ This is a **learning portfolio**, not a claim of production DevOps experience. E
 | [Day 02](day-02-permissions-processes/README.md) | Permissions, process management & signals | ✅ Practiced |
 | [Day 03](day-03-server-health-check/README.md) | System monitoring & manual health report | ✅ Completed (manual lab) |
 | [Day 04](day-04-networking-basics/README.md) | Networking basics & HTTP connectivity | ✅ Practiced (curl verified) |
-| Future labs | Bash, logs, services, automation | 🗓️ Planned |
+| [Day 05](day-05-ssh-remote-access/README.md) | SSH, local remote access & key authentication | ✅ Practiced |
+| Future labs | Bash, logs, automation | 🗓️ Planned |
 
 ## ✦ skills i'm building
 
@@ -40,6 +41,7 @@ This is a **learning portfolio**, not a claim of production DevOps experience. E
 - **Processes:** `ps`, `grep`, `kill`, background jobs, process IDs
 - **Monitoring:** `uptime`, `free -h`, `df -h`, `top`, `ps -p`
 - **Networking:** `curl -I` (verified HTTP response); exploring `ping`, `ip`, and DNS checks
+- **SSH:** client/service checks, localhost connections, ED25519 keys, `authorized_keys` permissions
 - **Workflow:** running commands, checking results, correcting mistakes, keeping notes
 
 ## ✦ lab notes
