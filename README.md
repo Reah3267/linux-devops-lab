@@ -46,7 +46,7 @@ This is a **learning portfolio**, not a claim of production DevOps experience. E
 
 ## ✦ lab notes
 
-Each lab contains commands I've practiced, what they do, and small interview-style explanations. Command snippets are **examples to reproduce locally**, not copies of terminal output or proof of a completed automated test suite.
+Each lab contains commands I've practiced, what they do, and practical troubleshooting notes. Command snippets are **examples to reproduce locally**, not copies of terminal output or proof of a completed automated test suite.
 
 > learning goal: understand what a command changes, how to verify it, and what to try when something goes wrong.
 
