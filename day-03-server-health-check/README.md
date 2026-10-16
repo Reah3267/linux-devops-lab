@@ -81,20 +81,6 @@ It displayed the header but no process row. This means that PID **1240 was not l
 
 Earlier process practice also included running a temporary `sleep 120` process, inspecting its PID, and terminating it.
 
-## ✦ interview checkpoint
-
-**Q: What's the difference between `free -h` and `df -h`?**
-
-`free -h` reports memory/swap; `df -h` reports filesystem space.
-
-**Q: Why check `uptime`?**
-
-It shows system uptime and load averages, useful context when diagnosing performance.
-
-**Q: Does `ps -p PID` showing no row mean `kill` worked?**
-
-Not necessarily. The process might have already exited or the PID might be incorrect. Verify the sequence before making that claim.
-
 ## ✦ optional next upgrade
 
 Convert these manual observations into a **Bash health-check script** that collects real command output, saves a timestamped report, and checks its own results. This is **planned**, not yet completed.
