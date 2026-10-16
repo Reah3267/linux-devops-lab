@@ -42,16 +42,6 @@ cat backup.txt
 
 **Expected check:** both `linux.txt` and `backup.txt` should contain the same line.
 
-## interview checkpoint
-
-**Q: What's the difference between `cp` and `mv`?**
-
-`cp` creates a copy; `mv` moves or renames an existing file.
-
-**Q: What's the difference between `rm` and `rmdir`?**
-
-`rm` removes files; `rmdir` removes empty directories.
-
 ## next
 
 Move on to Linux permissions and processes in [Day 02](../day-02-permissions-processes/README.md).
