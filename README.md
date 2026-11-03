@@ -32,7 +32,8 @@ This is a **learning portfolio**, not a claim of production DevOps experience. E
 | [Day 03](day-03-server-health-check/README.md) | System monitoring & manual health report | ✅ Completed (manual lab) |
 | [Day 04](day-04-networking-basics/README.md) | Networking basics & HTTP connectivity | ✅ Practiced (curl verified) |
 | [Day 05](day-05-ssh-remote-access/README.md) | SSH, local remote access & key authentication | ✅ Practiced |
-| Future labs | Bash, logs, automation | 🗓️ Planned |
+| [Day 08](day-08-linux-services-systemd/README.md) | Linux services, systemd, cron & Nginx | 🔄 In progress (restarted) |
+| Other labs | Bash, logs, automation | 🗓️ To document |
 
 ## ✦ skills i'm building
 
@@ -42,6 +43,7 @@ This is a **learning portfolio**, not a claim of production DevOps experience. E
 - **Monitoring:** `uptime`, `free -h`, `df -h`, `top`, `ps -p`
 - **Networking:** `curl -I` (verified HTTP response); exploring `ping`, `ip`, and DNS checks
 - **SSH:** client/service checks, localhost connections, ED25519 keys, `authorized_keys` permissions
+- **Services:** exploring `systemctl`, `journalctl`, cron and Nginx
 - **Workflow:** running commands, checking results, correcting mistakes, keeping notes
 
 ## ✦ lab notes
