@@ -32,8 +32,10 @@ This is a **learning portfolio**, not a claim of production DevOps experience. E
 | [Day 03](day-03-server-health-check/README.md) | System monitoring & manual health report | ✅ Completed (manual lab) |
 | [Day 04](day-04-networking-basics/README.md) | Networking basics & HTTP connectivity | ✅ Practiced (curl verified) |
 | [Day 05](day-05-ssh-remote-access/README.md) | SSH, local remote access & key authentication | ✅ Practiced |
+| [Day 06](day-06-bash-server-monitor/README.md) | Bash scripting & server monitoring | ✅ Completed |
+| [Day 07](day-07-cron-automation/README.md) | Cron scheduling & automated reports | ✅ Completed |
 | [Day 08](day-08-linux-services-systemd/README.md) | Linux services, systemd, cron & Nginx | ✅ Completed (practice lab) |
-| Other labs | Bash, logs, automation | 🗓️ To document |
+| Future labs | More Linux troubleshooting & automation | 🗓️ Planned |
 
 ## ✦ skills i'm building
 
@@ -43,6 +45,7 @@ This is a **learning portfolio**, not a claim of production DevOps experience. E
 - **Monitoring:** `uptime`, `free -h`, `df -h`, `top`, `ps -p`
 - **Networking:** `curl -I` (verified HTTP response); exploring `ping`, `ip`, and DNS checks
 - **SSH:** client/service checks, localhost connections, ED25519 keys, `authorized_keys` permissions
+- **Bash & automation:** `server-monitor.sh`, variables, conditionals, cron scheduling and output redirection
 - **Services:** exploring `systemctl`, `journalctl`, cron and Nginx
 - **Workflow:** running commands, checking results, correcting mistakes, keeping notes
 
