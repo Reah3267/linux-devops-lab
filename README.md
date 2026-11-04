@@ -35,6 +35,7 @@ This is a **learning portfolio**, not a claim of production DevOps experience. E
 | [Day 06](day-06-bash-server-monitor/README.md) | Bash scripting & server monitoring | ✅ Completed |
 | [Day 07](day-07-cron-automation/README.md) | Cron scheduling & automated reports | ✅ Completed |
 | [Day 08](day-08-linux-services-systemd/README.md) | Linux services, systemd, cron & Nginx | ✅ Completed (practice lab) |
+| [Day 09](day-09-linux-networking-troubleshooting/README.md) | IPs, routes, ping, DNS & Nginx ports | ✅ Practiced |
 | Future labs | More Linux troubleshooting & automation | 🗓️ Planned |
 
 ## ✦ skills i'm building
@@ -43,7 +44,7 @@ This is a **learning portfolio**, not a claim of production DevOps experience. E
 - **Permissions:** `chmod`, octal modes, user/group/other permissions
 - **Processes:** `ps`, `grep`, `kill`, background jobs, process IDs
 - **Monitoring:** `uptime`, `free -h`, `df -h`, `top`, `ps -p`
-- **Networking:** `curl -I` (verified HTTP response); exploring `ping`, `ip`, and DNS checks
+- **Networking:** `curl -I`, `ping`, `ip route`, `getent ahostsv4`, `ss -ltnp`; verified gateway, public-IP, DNS and Nginx port checks
 - **SSH:** client/service checks, localhost connections, ED25519 keys, `authorized_keys` permissions
 - **Bash & automation:** `server-monitor.sh`, variables, conditionals, cron scheduling and output redirection
 - **Services:** exploring `systemctl`, `journalctl`, cron and Nginx
