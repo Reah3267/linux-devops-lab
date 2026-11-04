@@ -1,6 +1,6 @@
 # day 08 — linux services & systemd ⚙️🐧
 
-> **Status:** 🔄 In progress — restarted from the beginning on 03 Nov 2026  
+> **Status:** ✅ Completed — 04 Nov 2026 (practice lab)  
 > **Environment:** Ubuntu on WSL2  
 > **Focus:** Linux services, systemd, journal logs, cron, and Nginx
 
@@ -10,7 +10,7 @@ Understand how Linux services start, stop, run in the background, and produce lo
 
 ## ✦ service management
 
-Useful commands for the restarted Day 8 lessons:
+Commands covered in the Day 8 service-management lab:
 
 ```bash
 systemctl status cron
@@ -48,7 +48,7 @@ The actual practice paths are omitted here because they have not been reverified
 
 ## ✦ Nginx service exploration
 
-Earlier Day 8 work involved Nginx and a custom webpage. The restarted lesson can revisit these checks:
+Earlier Day 8 work involved Nginx and a custom webpage. Commands used for Nginx service and configuration troubleshooting:
 
 ```bash
 sudo systemctl status nginx
@@ -57,19 +57,28 @@ curl -I http://localhost
 journalctl -u nginx --no-pager -n 20
 ```
 
-These commands are a **practice checklist**, not newly verified outputs. Existing Nginx work does not need to be deleted to restart the lesson.
+**Observed practice:** An Nginx access-log check returned HTTP 404 entries for a missing favicon and a deliberately nonexistent page. An Nginx error-log entry reported inherited sockets. These observations show log inspection; a 404 for a nonexistent path does not by itself mean Nginx is broken.
 
-## ✦ restart checklist
+## ✦ completion notes
 
-- [ ] Review what a Linux service and systemd unit are
-- [ ] Inspect `systemctl status`, `is-active`, and `is-enabled`
-- [ ] Practice starting, stopping, and restarting a test service safely
-- [ ] Read service logs with `journalctl`
-- [ ] Revisit Nginx and test its configuration
-- [ ] Record verified outputs and troubleshooting notes
+Day 8 practice is complete. Topics covered include service state checks, cron journal review, Nginx configuration checks, HTTP status interpretation, and access/error log inspection.
+
+**Example access-log troubleshooting command:**
+
+```bash
+sudo grep '" 404 ' /var/log/nginx/access.log
+```
+
+**Example configuration validation:**
+
+```bash
+sudo nginx -t
+```
+
+The documented log lines were observed during practice. This README does not assert that all service commands produced a particular output unless recorded.
 
 ## ✦ next update
 
-As each restarted Day 8 lesson is completed, replace checklist items with actual results. Do not commit secrets, private keys, or machine-specific credentials.
+Future improvements: add redacted terminal output or a small reusable service-health script. Do not commit secrets, private keys, or machine-specific credentials.
 
 [← Back to overview](../README.md)
