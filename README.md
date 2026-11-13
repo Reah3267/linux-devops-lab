@@ -36,7 +36,8 @@ This is a **learning portfolio**, not a claim of production DevOps experience. E
 | [Day 07](day-07-cron-automation/README.md) | Cron scheduling & automated reports | ✅ Completed |
 | [Day 08](day-08-linux-services-systemd/README.md) | Linux services, systemd, cron & Nginx | ✅ Completed (practice lab) |
 | [Day 09](day-09-linux-networking-troubleshooting/README.md) | IPs, routes, ping, DNS & Nginx ports | ✅ Practiced |
-| [Day 10](day-10-network-troubleshooting-ssh/README.md) | Ping, DNS, SSH keys, socket activation & troubleshooting | ✅ Completed |\n| Future labs | More Linux troubleshooting & automation | 🗓️ Planned |
+| [Day 10](day-10-network-troubleshooting-ssh/README.md) | Ping, DNS, SSH keys, socket activation & troubleshooting | ✅ Completed |\n| [Day 11](day-11-linux-logs-troubleshooting/README.md) | journalctl, SSH logs, systemd user timers | ✅ Completed |
+| Future labs | More Linux troubleshooting & automation | 🗓️ Planned |
 
 ## ✦ skills i'm building
 
@@ -48,6 +49,7 @@ This is a **learning portfolio**, not a claim of production DevOps experience. E
 - **SSH:** client/service checks, localhost connections, ED25519 keys, `authorized_keys` permissions, socket activation, `SSH_CONNECTION` verification
 - **Bash & automation:** `server-monitor.sh`, variables, conditionals, cron scheduling and output redirection
 - **Services:** exploring `systemctl`, `journalctl`, cron and Nginx
+- **Logs & diagnostics:** `journalctl`, `systemctl --user`, SSH authentication logs, oneshot services and timers
 - **Workflow:** running commands, checking results, correcting mistakes, keeping notes
 
 ## ✦ lab notes
